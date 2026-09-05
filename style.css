@@ -1,0 +1,281 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+    position: sticky;
+top: 0;
+z-index: 1000;
+}
+
+
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: lightblue;
+}
+}
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+}
+.hero-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.project-card {
+    background-color: white;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+#projects {
+    text-align: center;
+}
+
+
+   .project-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    background-color: #f9f9f9;
+}
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+gap: 20px;
+flex-wrap: wrap;
+#projects {
+    text-align: center;
+}
+}
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+#about {
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 40px;
+}
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+@media (max-width: 600px) {
+    .project-card {
+        width: 80%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+}
+form {
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+.hero-button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #00bfff;
+}
+section {
+    padding: 80px 20px;
+    border-bottom: 1px solid #ddd;
+}
+section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #555;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+section h2 {
+    transition: transform 0.3s ease;
+}
+
+section h2:hover {
+    transform: translateY(-3px);
+}
+#projects,
+#contact {
+    background-color: rgba(255, 255, 255, 0.1);
+text-align: center;
+
+}
+button:active {
+    transform: scale(0.95);
+}
+.project-card h3 {
+    margin-bottom: 10px;
+}
+body {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+#skills {
+    text-align: center;
+}
+
+#skills p {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#skills p:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+footer {
+    text-align: center;
+    padding: 25px;
+}
