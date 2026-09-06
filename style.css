@@ -279,3 +279,18 @@ footer {
     text-align: center;
     padding: 25px;
 }
+.project-button {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-button:hover {
+    background-color: #007bff;
+    transform: scale(1.05);
+}
