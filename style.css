@@ -294,3 +294,91 @@ footer {
     background-color: #007bff;
     transform: scale(1.05);
 }
+.call-to-action {
+    text-align: center;
+    padding: 50px 20px;
+    margin: 30px auto;
+}
+
+.call-to-action h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #1DA851;
+}
+
+/* ABOUT ME HEADING */
+#about h2 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+/* ABOUT ME HEADING */
+#about h2 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+/* ACTION WHEN CURSOR HOVERS */
+#about h2:hover {
+    color: #007bff;
+    transform: scale(1.08);
+}
+
+/* RESPONSIVE HEADING */
+@media (max-width: 768px) {
+    #about h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    #about h2 {
+        font-size: 24px;
+    }
+}
+
+#about h2 {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 25px;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+#about h2:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
+#about h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
